@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAKING A FORM</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        label{
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="contain">
+      <h1>Student Registration form</h1>
+      <form>
+        <label>
+           Your Name <br>
+           <input id="tid" type="text">
+        </label>
+        <label>
+           Your Fathers name <br>
+           <input id="tid" type="text">
+        </label>
+        <label>
+           Your Mothers name <br>
+            <input id="tid" type="text">
+        </label>
+        <label>
+            Your Gender :
+            <input type="radio" name="Gender"> MALE
+            <input type="radio" name="Gender"> FEMALE
+            <input type="radio" name="Gender"> OTHERS
+        </label>
+        <label>
+             What you would like to eat?
+             <input type="checkbox" value="chicken">chicken
+             <input type="checkbox" value="Mutton">Mutton
+             <input type="checkbox" value="Beef">Beef
+             <input type="checkbox" value="Drinks">Soft Drinks
+        </label>
+        <label>
+            Write about yourself : <br>
+            <textarea id="tid1" name="myText" cols="30" rows="10" placeholder="Write Something....."></textarea>
+        </label>
+        <br>
+        <label>
+            <b>Select Your fav CAR</b>
+            <select>
+                 <option value="CAR">FORD</option>
+                 <option value="CAR">Ferrary</option>
+                 <option value="CAR">Marcedes</option>
+            </select>
+        </label>
+        <br>
+        <label>
+            <input id="btn" type="button" value="Submit Now">
+            <input id="btn" type="reset" value="Reset Now">
+        </label>
+      </form>
+    </div>
+</body>
+
+</html>
